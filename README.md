@@ -7,7 +7,7 @@
 
 | # | 주차 | 주제 | 언어 | 폴더 | 핵심 내용 |
 |---|------|------|------|------|-----------|
-| 01 | 1주차 | MATLAB 행렬 연산 기초 | MATLAB | [01_matrix_basics](01_matrix_basics/) | 행렬 곱으로 선형 모델 `y = a*x + b` 계산, 실제값과 오차 비교 |
+| 01 | — | 행렬 곱으로 선형 모델 계산 | MATLAB | [01_matrix_basics](01_matrix_basics/) | 상수항 열 추가, `[x 1]*[a;b]` 로 예측값 계산, 오차 확인 |
 | 02 | 2~3주차 | 유사성 기반 인공지능: kNN | MATLAB | [02_knn_iris](02_knn_iris/) | Iris 데이터 시각화, `fitcknn` vs. 직접 구현한 kNN, 결정 영역 시각화 |
 
 <!-- 새 과제 추가 예시 (한 줄 복사해서 수정)
@@ -24,7 +24,7 @@ intro-to-ai/
 ├── _template/             ← 새 과제 폴더를 만들 때 복사해서 쓰는 틀
 ├── 01_matrix_basics/
 │   ├── README.md
-│   └── HW1_202210808.m
+│   └── linear_model_matrix.m
 └── 02_knn_iris/
     ├── README.md          ← 과제 설명, 파일별 내용, 결과 그림
     ├── ex1 ~ ex5 .m
