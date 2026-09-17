@@ -1,0 +1,9 @@
+# 줄바꿈은 git이 자동으로 정규화 (Windows/Mac/Linux 어디서 열어도 동일)
+* text=auto
+
+# 이미지/바이너리는 그대로
+*.png binary
+*.jpg binary
+*.gif binary
+*.mat binary
+*.pkl binary

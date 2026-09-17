@@ -1,0 +1,5 @@
+# 파이썬 과제일 때만 사용. 실제로 쓴 라이브러리와 버전으로 바꾸세요.
+# pip freeze | findstr /i "numpy pandas matplotlib scikit-learn torch"  로 버전 확인 가능
+numpy
+matplotlib
+scikit-learn

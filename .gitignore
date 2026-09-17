@@ -1,0 +1,47 @@
+# ---------- MATLAB ----------
+*.asv
+*.m~
+*.autosave
+*.mex*
+*.mlappinstall
+*.mltbx
+slprj/
+sccprj/
+codegen/
+octave-workspace
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+*.log
+
+# ---------- 강의 자료 (교수님 슬라이드 등은 저장소에 올리지 않음) ----------
+*.pptx
+*.ppt
+*.hwp
+*.hwpx
+*.docx
+~$*
+
+# ---------- 대용량 데이터 / 모델 (필요하면 폴더별로 예외 처리) ----------
+*.mat
+*.h5
+*.pkl
+*.pt
+*.pth
+*.npz
+data/raw/
+
+# ---------- OS / 편집기 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
